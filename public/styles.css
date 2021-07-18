@@ -1,11 +1,10 @@
 /* global styles */
-@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
 
 /* font-family: 'Inconsolata', monospace; */
-@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@600&display=swap");
 
 /* font-family: 'Rubik', sans-serif; */
-
+@import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
 * {
   margin: 0;
   padding: 0;
@@ -47,10 +46,9 @@ a {
   letter-spacing: 1px;
   padding: 13px 30px 13px;
   outline: 0;
-  border: 1px solid black;
+  border: 5px solid black;
   cursor: pointer;
   position: relative;
-  background-color: rgba(0, 0, 0, 0);
 }
 
 .slide i {
@@ -82,6 +80,20 @@ a {
 
 /* nav styles */
 
+.titleHeading {
+  font-size: 1.7rem;
+  color: black;
+}
+
+.introContainer h1 {
+  font-size: 1.5rem;
+}
+
+.contributeLink:hover {
+  color: #3078ec;
+  transition: ease-in-out 0.3s;
+}
+
 .navbar {
   display: grid;
   grid-template-areas: ". title links";
@@ -110,9 +122,8 @@ a {
 
 /* main content styles */
 
-.mainContent {
-  display: flex;
-  flex-direction: column;
+.mainContainer {
+  background-color: #5e5b86;
 }
 
 .introContainer {
@@ -121,7 +132,7 @@ a {
   align-items: center;
   flex-direction: column;
   height: 300px;
-  background-color: #ffd6a5;
+  background-color: #f1fffa;
   color: black;
 }
 
@@ -132,6 +143,8 @@ a {
   grid-template-rows: 1fr 1fr 1fr;
   place-items: center;
   margin-top: 20px;
+  background-color: #5e5b86;
+  color: rgb(255, 255, 255);
 }
 
 .iconsContainer img {

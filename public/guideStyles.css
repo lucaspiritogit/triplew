@@ -1,0 +1,43 @@
+/* styles para las paginas de informacion de cada lenguaje/seccion */
+
+.guideContainer {
+  border: 1px solid black;
+  width: 55%;
+  margin: 0 auto;
+  margin-top: 20px;
+  height: 10000px;
+}
+
+.guideIntro {
+  padding: 20px;
+  text-align: center;
+}
+
+.guideIntro h1 {
+  font-size: 2rem;
+}
+
+.guideIntro p {
+  margin: 15px;
+  padding: 20px;
+}
+
+/* styles para la sidenavbar */
+
+.sideNavContainer {
+  display: flex;
+  position: relative;
+  margin-right: 15px;
+}
+
+.sideBar {
+  position: fixed;
+  padding: 20px;
+  width: 200px;
+  height: auto;
+}
+
+.sideBar ol li {
+  padding: 15px;
+  display: block;
+}
