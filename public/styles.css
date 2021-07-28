@@ -167,3 +167,19 @@ h3,
 h4 {
   margin: 15px;
 }
+
+/* end of main content styles */
+
+/* footer styles */
+
+/* end of footer styles */
+
+/* media queries phone  */
+@media (max-width: 480px) {
+  .iconsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+/* END of media queries phone */

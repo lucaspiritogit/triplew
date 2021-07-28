@@ -14,8 +14,6 @@ app.use(express.static(__dirname + '/public'));
 // routes
 app.use('/', require('./router/webroutes'));
 
-
-
 // /////
 
 app.use((req, res, next) => {
