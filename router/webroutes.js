@@ -1,8 +1,8 @@
 const express = require('express');
 const router = express.Router();
 
-// responder la solicitud con las views de las paginas
 
+// responder la solicitud con las views de las paginas
 
 
 router.get("/", (req, res) => {
