@@ -4,7 +4,6 @@ const router = express.Router();
 
 // responder la solicitud con las views de las paginas
 
-
 router.get("/", (req, res) => {
     res.render("index", 
     {title : " | Inicio"});
@@ -25,6 +24,7 @@ router.get("/", (req, res) => {
     {title : " | javaScript"});
   });
   
+
   
   module.exports = router;
 

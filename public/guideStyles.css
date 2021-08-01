@@ -1,11 +1,17 @@
 /* styles para las paginas de informacion de cada lenguaje/seccion */
 
+body {
+  background-color: #121212;
+}
+
 .guideContainer {
-  border: 1px solid black;
+  border: 1px solid #ffffffb0;
   width: 55%;
   margin: 0 auto;
   margin-top: 20px;
-  height: 10000px;
+  box-shadow: -12px 12px 2px 1px #ffffffb0;
+  background-color: #121212;
+  color: #ffffffb0;
 }
 
 .guideIntro {
@@ -22,7 +28,7 @@
   padding: 20px;
 }
 
-/* styles para la sidenavbar */
+/* styles para el indice */
 
 .sideNavContainer {
   display: flex;
@@ -35,6 +41,11 @@
   padding: 20px;
   width: 200px;
   height: auto;
+}
+
+.sideBar h1 {
+  font-size: 1.4rem;
+  color: #ffffffb0;
 }
 
 .sideBar ol li {
