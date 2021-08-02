@@ -5,30 +5,45 @@ const router = express.Router();
 // responder la solicitud con las views de las paginas
 
 router.get("/", (req, res) => {
-    res.render("index", 
-    {title : " | Inicio"});
-  });
-  
-  router.get("/html", (req, res) => {
-    res.render("html", 
-    {title : " | HTML"});
-  });
-  
-  router.get("/css", (req, res) => {
-    res.render("css", 
-    {title : " | CSS"});
-  });
-  
-  router.get("/javascript", (req, res) => {
-    res.render("javascript", 
-    {title : " | javaScript"});
-  });
-  
+  res.render("index",
+    { title: " | Inicio" });
+});
 
-  
-  module.exports = router;
+router.get("/html", (req, res) => {
+  res.render("html",
+    { title: " | HTML" });
+});
 
-  
-  
-  
+router.get("/css", (req, res) => {
+  res.render("css",
+    { title: " | CSS" });
+});
+
+router.get("/javascript", (req, res) => {
+  res.render("javascript",
+    { title: " | JavaScript" });
+});
+
+router.get("/node", (req, res) => {
+  res.render("node",
+    { title: " | Node.JS" });
+});
+
+router.get("/python", (req, res) => {
+  res.render("python",
+    { title: " | Python" });
+});
+
+router.get("/git", (req, res) => {
+  res.render("git",
+    { title: " | Git" });
+});
+
+
+
+module.exports = router;
+
+
+
+
   // /////////////////////////////////

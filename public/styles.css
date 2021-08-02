@@ -18,7 +18,7 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: "Inconsolata", monospace;
+  font-family: "Rubik", sans-serif;
 }
 
 a,
@@ -138,7 +138,7 @@ a {
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 300px;
+  height: 200px;
   background-color: #055052;
   color: black;
 }
@@ -151,6 +151,7 @@ a {
   place-items: center;
   background-color: #003638;
   color: rgb(255, 255, 255);
+  padding-left: 20px;
 }
 
 .iconsContainer img {
@@ -176,6 +177,27 @@ h4 {
   font-size: 1.2rem;
 }
 
+.icono:hover{
+     transform: scale(1.2);
+}
+
+.icono {
+  transition: all ease 0.3s;
+}
+
+.botonSaber{
+  border-radius: 8px;
+  font-family: "Rubik", sans-serif;
+  font-weight: bolder;
+}
+
+.guideContainer{
+  padding: 25px;
+}
+
+.guideIntro {
+  padding-top: 50px;
+}
 /* end of main content styles */
 
 /* footer styles */
@@ -183,11 +205,29 @@ h4 {
 /* end of footer styles */
 
 /* media queries phone  */
-@media (max-width: 480px) {
+@media (max-width: 320px){
+    .iconsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+    .introContainer h1{
+    display: flex;
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 480px){
   .iconsContainer {
+    display: flex;
+    flex-direction: column;
+  }
+    .introContainer h1{
     display: flex;
     flex-direction: column;
   }
 }
 
 /* END of media queries phone */
+
+
+
