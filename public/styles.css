@@ -113,7 +113,7 @@ a {
   height: auto;
   border-bottom: 1px solid black;
   padding: 20px;
-  background-color: #54436B;
+  background-color: #F3F2C9;
 }
 
 .navLogoTitleContainer {
@@ -139,7 +139,7 @@ a {
   align-items: center;
   flex-direction: column;
   height: 300px;
-  background-color: #50CB93;
+  background-color: #055052;
   color: black;
 }
 
@@ -149,7 +149,7 @@ a {
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr 1fr;
   place-items: center;
-  background-color: #71EFA3;
+  background-color: #003638;
   color: rgb(255, 255, 255);
 }
 
