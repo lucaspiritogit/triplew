@@ -24,6 +24,21 @@ router.get("/javascript", (req, res) => {
     { title: " | JavaScript" });
 });
 
+router.get("/node", (req, res) => {
+  res.render("node",
+    { title: " | Node.JS" });
+});
+
+router.get("/python", (req, res) => {
+  res.render("python",
+    { title: " | Python" });
+});
+
+router.get("/git", (req, res) => {
+  res.render("git",
+    { title: " | Git" });
+});
+
 
 
 module.exports = router;
