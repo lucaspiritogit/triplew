@@ -11,13 +11,11 @@ Dentro de poco la pagina va a ser deployeada en Heroku, hasta entonces lo vamos 
   "dependencies": {
     "ejs": "^3.1.6",
     "express": "^4.17.1",
-    "mongoose": "^5.13.3",
     "nodemon": "^2.0.12"
   }
 ```
 
-Para este proyecto estamos usando [Node](https://nodejs.org), [Express](https://expressjs.com/), [EJS](https://ejs.co/), [Nodemon](https://www.npmjs.com/package/nodemon) y [Mongoose](https://mongoosejs.com/).
-> Mongoose esta implementado porque la idea es que TripleW tenga un sistema de log-in para agregar distintas features, pero la verdad es que me olvide completamente de implementarlo asi que probablemente es lo que mas tarde en llegar👻.
+Para este proyecto estamos usando [Node](https://nodejs.org), [Express](https://expressjs.com/), [EJS](https://ejs.co/) y [Nodemon](https://www.npmjs.com/package/nodemon)
 
 ### Dentro del proyecto:
 
