@@ -4,6 +4,12 @@ body {
   background-color: #121212;
 }
 
+p {
+  line-height: 1.5em;
+  font-weight: 450;
+  word-spacing: 2px;
+}
+
 .guideContainer {
   border: 1px solid #ffffffb0;
   width: 55%;
@@ -16,11 +22,11 @@ body {
 
 .guideIntro {
   padding: 20px;
-  text-align: center;
 }
 
 .guideIntro h1 {
   font-size: 2rem;
+  text-align: center;
 }
 
 .guideIntro p {
@@ -28,7 +34,7 @@ body {
   padding: 20px;
 }
 
-/* styles para el indice */
+/* sidenav indice styles */
 
 .sideNavContainer {
   display: flex;
@@ -52,3 +58,5 @@ body {
   padding: 15px;
   display: block;
 }
+
+/* end of styles sidenav indice */

@@ -5,6 +5,7 @@
 
 /* font-family: 'Rubik', sans-serif; */
 @import url("https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap");
+
 * {
   margin: 0;
   padding: 0;
@@ -36,11 +37,17 @@ li {
 
 a {
   text-decoration: none;
-  color: #7692ff;
+  color: rgb(119, 117, 117);
+  padding: 10px;
+  transition: ease-in-out 0.2s;
+}
+
+a:hover {
+  color: #201e50;
 }
 
 /* btn styles */
-.slide {
+/* .slide {
   font-size: 20px;
   font-weight: 200;
   letter-spacing: 1px;
@@ -73,7 +80,10 @@ a {
 .slide:hover i {
   opacity: 1;
   transform: translateX(-6px);
-}
+} */
+
+/* este button lo dejo comentado
+por si se nos ocurre reutilizarlo */
 
 /* end of btn styles */
 
@@ -89,7 +99,6 @@ a {
 
 .introContainer h1 {
   font-size: 1.5rem;
-
 }
 
 .contributeLink {
@@ -116,18 +125,16 @@ a {
   height: auto;
   border-bottom: 1px solid black;
   padding: 20px;
-  background-color: #F3F2C9;
+  background-color: #f3f2c9;
   align-items: center;
 }
 
 .navLogoTitleContainer {
   display: flex;
-  grid-area: title;
   place-content: center;
 }
 
 .navListContainer {
-  grid-area: links;
   display: flex;
   align-items: center;
   justify-content: end;
@@ -171,6 +178,7 @@ a {
   align-items: center;
   text-align: center;
   margin-top: 20px;
+  margin-bottom: 100px;
 }
 
 .indContainer h1,
@@ -181,30 +189,25 @@ h4 {
   font-size: 1.2rem;
 }
 
-.icono:hover{
-     transform: scale(1.2);
+.icon:hover {
+  transform: scale(1.2);
 }
 
-.icono {
+.icon {
   transition: all ease 0.3s;
 }
 
-.botonSaber{
-  border-radius: 8px;
-  font-family: "Rubik", sans-serif;
-  font-weight: bolder;
-}
-
-.guideContainer{
+.guideContainer {
   padding: 25px;
 }
 
-.guideIntro{
+.guideIntro {
   padding-top: 50px;
 }
 
-.intro{
-  background-color: #548CA8;
+.intro {
+  background-color: #548ca8;
+  padding: 10px;
 }
 /* end of main content styles */
 
@@ -213,29 +216,28 @@ h4 {
 /* end of footer styles */
 
 /* media queries phone  */
-@media (max-width: 320px){
-    .iconsContainer {
+@media (max-width: 320px) {
+  .iconsContainer {
     display: flex;
     flex-direction: column;
   }
-    .introContainer h1{
+
+  .introContainer h1 {
     display: flex;
     flex-direction: column;
   }
 }
 
-@media (max-width: 480px){
+@media (max-width: 480px) {
   .iconsContainer {
     display: flex;
     flex-direction: column;
   }
-    .introContainer h1{
+
+  .introContainer h1 {
     display: flex;
     flex-direction: column;
   }
 }
 
 /* END of media queries phone */
-
-
-
