@@ -97,6 +97,10 @@ por si se nos ocurre reutilizarlo */
   color: black;
 }
 
+.titleHeading:hover {
+  color: black;
+}
+
 .introContainer h1 {
   font-size: 1.5rem;
 }
