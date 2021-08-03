@@ -52,11 +52,41 @@ p {
 .sideBar h1 {
   font-size: 1.4rem;
   color: #ffffffb0;
+  text-decoration: underline;
+  text-underline-offset: 10px;
 }
 
 .sideBar ol li {
   padding: 15px;
   display: block;
+}
+
+.sideBar ol li a {
+  color: #ffffffb0;
+  transition: all 0.3s ease;
+}
+
+.sideBar ol {
+  margin-top: 5px;
+  margin-left: 10px;
+}
+
+.sideLink {
+  transition: all 0.3s ease-in-out;
+  position: absolute;
+  height: auto;
+  width: 60px;
+  padding-left: 10px;
+}
+
+.sideBar ol li {
+  position: relative;
+  margin-bottom: 30px;
+}
+
+.sideLink:hover {
+  color: white;
+  transform: translateX(10px);
 }
 
 /* end of styles sidenav indice */
