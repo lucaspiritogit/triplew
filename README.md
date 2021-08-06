@@ -21,9 +21,8 @@ Para este proyecto estamos usando [Node](https://nodejs.org), [Express](https://
 
 2. Instalar las dependencias dentro del editor de texto.
 
-Una vez tengas clonado el repositorio, usa la terminal de tu editor de texto y metete a la carpeta raiz del proyecto.
-y ejecuta `npm i` para instalar las dependencias del proyecto. Tambien te recomiendo que instales `nodemon` de manera `global` usando el comando `npm install -g nodemon`. Esto hace que en el futuro, cuando estes en un proyecto que use nodemon, no tengas que instalarlo localmente en esa carpeta. Si no queres instalarlo globalmente, usa `npm i nodemon` y deberia de funcionar igual.
-
+Clona el repositorio de manera local con `git clone https://github.com/lucaspiritogit/triplew`, usa la terminal de tu editor de texto y metete a la carpeta raiz del proyecto. Ejecuta `npm i` para instalar las dependencias del proyecto. Tambien te recomiendo que instales `nodemon` de manera `global` usando el comando `npm install -g nodemon`. Esto hace que en el futuro, cuando estes en un proyecto que use nodemon, no tengas que instalarlo localmente en esa carpeta. Si no queres instalarlo globalmente, usa `npm i nodemon` y deberia de funcionar igual.
+Para ver el proyecto de manera local, anda a la terminal y escribi `nodemon app` o `nodemon app.js`.
 
 ### Estructura del proyecto:
 ![](public/images/docs/structure.png)
