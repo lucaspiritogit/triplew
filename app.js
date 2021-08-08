@@ -7,8 +7,8 @@ app.set('views', __dirname + '/views');
 
 // esto setea de donde agarrar los static files para el servidor
 app.use(express.static(__dirname + '/public'));
+app.use(express.static(__dirname + '/scripts'));
 
-app.use("/scripts", express.static('scripts'));
 
 // routes
 app.use('/', require('./router/webroutes'));
