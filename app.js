@@ -21,7 +21,6 @@ app.use((req, res, next) => {
 });
 
 
-
 // listen para testear si todo corre bien👍
 app.listen(port, () => {
   console.log(`App listening at http://localhost:${port}`);
