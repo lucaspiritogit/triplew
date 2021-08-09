@@ -1,0 +1,1 @@
+console.log('gordo puto anashe')
