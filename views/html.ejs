@@ -1,64 +1,67 @@
 <%- include("../templates/head", {title}) %>
 
-<body>
-  <nav class="sideNavContainer">
-    <div class="sideBar">
-      <h1>Índice</h1>
+  <body>
+    <nav class="sideNavContainer">
+      <div class="sideBar">
+        <h1>Índice</h1>
         <ol>
           <li>
             <div class="sideLink">
-              <a class="sideLinkText" href="#">
-              a
+              <a class="sideLinkText" href="#html">
+                HTML1
               </a>
             </div>
-           </li>
-            <li>
-              <div class="sideLink">
-                <a class="sideLinkText" href="#">
+          </li>
+          <li>
+            <div class="sideLink">
+              <a class="sideLinkText" href="#">
                 a
-                </a>
-              </div>
-            </li>
-              <li>
-                <div class="sideLink">
-                  <a class="sideLinkText" href="#">
-                  a
-                  </a>
-                </div>
-              </li>
-              <li>
-                <div class="sideLink">
-                  <a class="sideLinkText" href="#">
-                  a
-                  </a>
-                </div>
-              </li>
-          </ol>
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="sideLink">
+              <a class="sideLinkText" href="#">
+                a
+              </a>
+            </div>
+          </li>
+          <li>
+            <div class="sideLink">
+              <a class="sideLinkText" href="#">
+                a
+              </a>
+            </div>
+          </li>
+        </ol>
       </div>
     </nav>
 
     <!-- Intro container donde se explica lo basico del lenguaje/tecnologia -->
     <div class="guideContainer">
       <div class="guideIntro">
-          <h1>HTML: Hypertext Markup Language</h>
-          <p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), hace referencia al
-          lenguaje
-          de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que conecta
-          con la
-          elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado
-          código
-          HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros.
+        <h1 id="html">HTML: Hypertext Markup Language</h>
+          <p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), hace referencia
+            al
+            lenguaje
+            de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que
+            conecta
+            con la
+            elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado
+            código
+            HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros.
           </p>
-        </div>
-        <!-- Para abrir un tag usen "&lt;," total se puede cerrar con ">".
+      </div>
+      <!-- Para abrir un tag usen "&lt;," total se puede cerrar con ">".
         En prism recomiendan usar MARKUP para displayear HTML, usando este formato no deberia de haber drama. -->
-        <pre>
+      <pre>
           <code class="language-markup">
             &lt;p>nashe&lt;/p>
           </code>
         </pre>
-      </div>
-      <script src="/guideScripts.js"></script>   
-      <script src="/prism/prism.js"></script>   
-    </body>
+    </div>
+    <script src="/guideScripts.js"></script>
+    <script src="/prism/prism.js"></script>
+  </body>
+
   </html>
