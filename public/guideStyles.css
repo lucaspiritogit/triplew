@@ -79,4 +79,12 @@ p {
   transform: translateX(10px);
 }
 
+.backToIndex{
+  color: #c4c58af1 ;
+  
+}
+.backToIndex:hover{
+  color: #f3f2c9;
+}
+
 /* end of styles sidenav indice */
