@@ -39,12 +39,14 @@ p {
 
 .sideNavContainer {
   display: flex;
-  position: relative;
+  position: sticky;
+  top:5px;
   margin-right: 15px;
 }
 
 .sideBar {
-  position: fixed;
+  position: absolute;
+  
   padding: 20px;
   width: 200px;
   height: auto;
@@ -77,6 +79,14 @@ p {
 
 .activeSideLinkText {
   transform: translateX(10px);
+}
+
+.backToIndex{
+  color: #c4c58af1 ;
+  
+}
+.backToIndex:hover{
+  color: #f3f2c9;
 }
 
 /* end of styles sidenav indice */
