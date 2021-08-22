@@ -1,5 +1,6 @@
 <%- include("../templates/head", {title}) %>
-
+      <!-- Para abrir un tag usen "&lt;," para cerrar el tag pueden utilizar ">".
+        En prism recomiendan usar MARKUP para displayear HTML, usando este formato no deberia de haber drama. -->
   <body>
     <nav class="sideNavContainer">
       <div class="sideBar">
@@ -41,26 +42,24 @@
     <div class="guideContainer">
       <div class="guideIntro">
         <h1 id="html">HTML: Hypertext Markup Language</h>
-          <p>HTML, siglas en inglés de HyperText Markup Language (‘lenguaje de marcado de hipertexto’), hace referencia
-            al
-            lenguaje
-            de marcado para la elaboración de páginas web. Es un estándar que sirve de referencia del software que
-            conecta
-            con la
-            elaboración de páginas web en sus diferentes versiones, define una estructura básica y un código (denominado
-            código
-            HTML) para la definición de contenido de una página web, como texto, imágenes, videos, juegos, entre otros.
+          <p>Podemos decir que HTML funciona como el esqueleto de la pagina. Es el lenguaje que se utiliza para crear todas las paginas web que tenemos en internet. Que sea un lenguaje de marcado significa que vamos a utilizar
+            los famosos "tags" para crear el contenido de la pagina. Llamamos "tag" a cualquier etiqueta que se utiliza para crear una parte de la pagina. 
           </p>
-      </div>
-      
-      <!-- Para abrir un tag usen "&lt;," total se puede cerrar con ">".
-        En prism recomiendan usar MARKUP para displayear HTML, usando este formato no deberia de haber drama. -->
+      </div>      
+
       <pre>
         <code class="language-markup">
-          &lt;p>nashe&lt;/p>
+          &lt;p>Esto es un tag llamado "paragraph",
+           tenemos que abrir el tag y cerrarlo
+           mientras ponemos el contenido
+           dentro de las tags&lt;/p>
         </code>
       </pre>
 
+      <div class="guideIntro">
+        <p>
+          Como podemos ver el texto esta entre los tags, pero el navegador no los va a mostrar. Este mismo texto que estas leyendo ahora tambien se encuentra encerrado entre los tags <span class="spanCodeColors">&lt;p> &lt;/p></span>. Lo mas importante es saber que los tags se abren y se cierran con el mismo simbolo, pero no siempre. Mas adelante vas a ver que puedes crear tags que no sean solo de una letra y que pueden "cerrarse a si mismos".
+        </p>
     </div>
 
     <script src="/guideScripts.js"></script>

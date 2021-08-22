@@ -4,6 +4,10 @@ body {
   background-color: #121212;
 }
 
+.spanCodeColors {
+  color: hsl(33, 33%, 52%);
+}
+
 p {
   line-height: 1.5em;
   font-weight: 450;
@@ -85,7 +89,10 @@ p {
 
 /* end of styles sidenav indice */
 
-@media (max-width: 767.98px) {
+/* media queries */
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
   .guideContainer {
     width: 100%;
     border: none;
@@ -95,3 +102,5 @@ p {
     display: none;
   }
 }
+
+/* end of media queries */
