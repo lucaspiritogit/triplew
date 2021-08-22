@@ -205,10 +205,6 @@ h4 {
   padding: 25px;
 }
 
-.guideIntro {
-  padding-top: 50px;
-}
-
 .intro {
   background-color: #548ca8;
   padding: 10px;
@@ -220,7 +216,8 @@ h4 {
 /* end of footer styles */
 
 /* media queries phone  */
-@media (max-width: 320px) {
+
+@media (max-width: 767.98px) {
   .iconsContainer {
     display: flex;
     flex-direction: column;
@@ -230,45 +227,19 @@ h4 {
     display: flex;
     flex-direction: column;
   }
-}
 
-@media (max-width: 480px) {
-  .iconsContainer {
+  .navbar {
     display: flex;
     flex-direction: column;
   }
 
-  .introContainer h1 {
+  .navbar ul {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
   }
 }
 
 /* END of media queries phone */
 
-
-/* spinner */
-
-
-.spinner {
-  align-self: center;
-  border: 4px solid rgba(0, 0, 0, 0.1);
-  width: 36px;
-  height: 36px;
-  border-radius: 50%;
-  border-left-color: #09f;
-
-  animation: spin 1s ease infinite;
-}
-
-@keyframes spin {
-  0% {
-    transform: rotate(0deg);
-  }
-
-  100% {
-    transform: rotate(360deg);
-  }
-}
-
-/* fin de spinner */
