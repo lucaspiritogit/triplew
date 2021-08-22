@@ -40,13 +40,12 @@ p {
 .sideNavContainer {
   display: flex;
   position: sticky;
-  top:5px;
+  top: 5px;
   margin-right: 15px;
 }
 
 .sideBar {
   position: absolute;
-  
   padding: 20px;
   width: 200px;
   height: auto;
@@ -73,20 +72,26 @@ p {
   color: #ffffffb0;
 }
 
-/* .activeSideLink {
-  transform: translateX(10px);
-} */
-
 .activeSideLinkText {
   transform: translateX(10px);
 }
 
-.backToIndex{
-  color: #c4c58af1 ;
-  
+.backToIndex {
+  color: #c4c58af1;
 }
-.backToIndex:hover{
+.backToIndex:hover {
   color: #f3f2c9;
 }
 
 /* end of styles sidenav indice */
+
+@media (max-width: 767.98px) {
+  .guideContainer {
+    width: 100%;
+    border: none;
+  }
+
+  .sideBar {
+    display: none;
+  }
+}
