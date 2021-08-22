@@ -9,7 +9,7 @@
           <li>
             <div class="sideLink">
               <a href="">
-                a
+                Spinner
               </a>
             </div>
           </li>
@@ -66,12 +66,65 @@
       </div>
       <pre>
             <code class="language-css-**-">
-              nashe
+              body {
+                background-color: #121212;
+              }
+              
+              p {
+                line-height: 1.5em;
+                font-weight: 450;
+                word-spacing: 2px;
+              }
             </code>
           </pre>
     </div>
     <script src="/prism/prism.js"></script>
     </div>
+
+
+    <div class="guideContainer">
+      <div class="guideIntro">
+        <h1>Spinner</h1>
+      <div>
+        <div class="spinner"></div>
+      </div>
+      
+      <pre>
+            <code class="language-css">
+              .spinner {
+                border: 4px solid rgba(0, 0, 0, 0.1);
+                width: 36px;
+                height: 36px;
+                border-radius: 50%;
+                border-left-color: #09f;
+
+              
+                animation: spin 1s ease infinite;
+              }
+              
+              @keyframes spin {
+                0% {
+                  transform: rotate(0deg);
+                }
+              
+                100% {
+                  transform: rotate(360deg);
+                }
+              }
+              
+
+            </code>
+          </pre>
+    </div>
+    <script src="/prism/prism.js"></script>
+    </div>
+
+
+
+
+
+
+
   </body>
 
   </html>

@@ -30,4 +30,8 @@ $ npm install nodemon
 
 ### El proyecto deberia de verse asi:
 ![](public/images/docs/structure.png)
-> `node_modules` y `.env` no van a estar en tu carpeta local gracias al `.gitignore`
+> `node_modules` y `.env` no van a estar en tu carpeta local gracias al `.gitignore
+
+
+### Para correr la aplicación hacer:
+'nodemon app' adentro del directorio triplew

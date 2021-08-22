@@ -39,6 +39,10 @@ router.get("/git", (req, res) => {
     { title: " | Git" });
 });
 
+router.get("/typescript", (req, res) => {
+  res.render("typescript",
+    { title: " | Typescript" });
+});
 
 
 module.exports = router;
