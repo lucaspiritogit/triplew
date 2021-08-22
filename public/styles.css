@@ -133,6 +133,10 @@ por si se nos ocurre reutilizarlo */
   align-items: center;
 }
 
+.burgerIconContainer {
+  display: none;
+}
+
 .navLogoTitleContainer {
   display: flex;
   place-content: center;
@@ -241,5 +245,16 @@ h4 {
   }
 }
 
+@media (max-width: 575.98px) {
+  .navListContainer {
+    display: none;
+  }
+  .burgerIconContainer {
+    display: block;
+    cursor: pointer;
+  }
+  .navListContainer.enabled {
+    display: flex;
+  }
+}
 /* END of media queries phone */
-
