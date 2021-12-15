@@ -161,9 +161,18 @@ por si se nos ocurre reutilizarlo */
   justify-content: center;
   align-items: center;
   flex-direction: column;
-  height: 200px;
+  height: 300px;
   background-color: #476072;
   color: black;
+}
+
+.heroIndex {
+  font-size: 1rem;
+  font-weight: 200;
+  letter-spacing: 1px;
+  padding: 13px 30px 13px;
+  background-color: #ffffffde;
+  margin: 15px;
 }
 
 .iconsContainer {
@@ -214,7 +223,7 @@ h4 {
 }
 
 .intro {
-  background-color: #548ca8;
+  text-align: center;
   padding: 10px;
 }
 /* end of main content styles */
