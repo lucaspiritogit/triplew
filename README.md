@@ -3,7 +3,7 @@ Desarrollada con la idea de que sea **OpenSource**, cualquiera puede contribuir 
 
 # Documentacion para contribuir
 
-### **1. Instalar las dependencias del proyecto.**
+## **Instalar las dependencias del proyecto.**
 
 Para este proyecto estamos usando [Node](https://nodejs.org), [Express](https://expressjs.com/), [EJS](https://ejs.co/) y [Nodemon](https://www.npmjs.com/package/nodemon)
 ```javascript
@@ -28,10 +28,8 @@ $ npm install nodemon
 ```
 > Te recomiendo instalar nodemon de manera global con `npm install -g nodemon`
 
-### El proyecto deberia de verse asi:
-![](public/images/docs/structure.png)
-> `node_modules` y `.env` no van a estar en tu carpeta local gracias al `.gitignore
+## **Correr la aplicacion.**
+Ejecutar `nodemon app` en terminal, dentro del directorio donde clonaste TripleW.
 
 
-### Para correr la aplicación hacer:
-'nodemon app' adentro del directorio triplew
+## Como agregar o editar guias
