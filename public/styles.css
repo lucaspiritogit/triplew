@@ -51,6 +51,10 @@ a:hover {
 }
 
 /* btn styles */
+
+/* este button lo dejo comentado
+por si se nos ocurre reutilizarlo porque ta groso 👍*/
+
 /* .slide {
   font-size: 20px;
   font-weight: 200;
@@ -85,9 +89,6 @@ a:hover {
   opacity: 1;
   transform: translateX(-6px);
 } */
-
-/* este button lo dejo comentado
-por si se nos ocurre reutilizarlo */
 
 /* end of btn styles */
 
@@ -284,3 +285,5 @@ h4 {
     transform: translateX(0px);
   }
 }
+
+/* end of animated navbar */
