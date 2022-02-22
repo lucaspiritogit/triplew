@@ -10,13 +10,37 @@
     <!-- Intro container donde se explica lo basico del lenguaje/tecnologia -->
     <div class="guideContainer">
       <div class="guideIntro">
-        <h1>Pagina en construccion </h1>
-        <p>👷‍♂️</p>
+        <h1>Git</h1>
+        <p><a href="https://git-scm.com/">Git</a>es un software de control de versiones gratis y open-source creado para organizar proyectos de alta y baja escala.</p>
       </div>
     </div>
+    <div class="guideContainer">
+      <div class="guideIntro">
+        <h1>Git merge</h1>
+        <p>Para definir el merge de git, hay que recordar el concepto de branch. Una *branch* en git no es mas que un nombre apuntando a un solo commit. Otros commits que "esten en la branch", deben ser considerados como "alcanzables" mediante el *parent chain* desde el commit que es apuntado por el nombre de la branch.</p>
+        <p>Cuando mergeamos en git, <i>simplemente mergeamos commits</i>. Los commits en cuestion casi siempre van a tener sus branch names,  es por eso que es natural pensar que estamos mergeando una rama con otra.</p>
+        <p>Asi funcionaria un merge:
+          <div class="unstyledOrderList">
+              <ol>
+                <li>Nos paramos en una branch, usualmente en una especie de branch primaria, por ejemplo: <code>master</code>.</li>
+                <li>Decimos <code>git merge otherbranch</code> (o cualquier nombre que tenga otra branch). Esto quiere decir que estamos mergeando <code>otherbranch</code> en <code>master</code>.</li>
+                <li>Git ahora crea un commit completamente nuevo combinando las contribuciones de ambas branches:</li>
+              </ol>
+                  <div class="unstyledUnorderList">
+                    <ul>
+                        <li>Estamos trabajando en <code>master</code>, asi que este nuevo commit es creado en <code>master</code>, esto significa que el HEAD de <code>master</code> avanza al nuevo commit.</li>
+                        <li>El HEAD de <code>otherbranch</code> no avanza.</li>
+                        <li>El nuevo commit tiene una particularidad: <em>tiene 2 padres</em>, el commit de <code>master</code> en el que estabamos parados, y el HEAD de <code>otherbranch</code>, en ese orden.</li>
+                    </ul>
+                  </div>              
+          </div>            
+        </p>
+      </div>
+    </div>
+    
     <script src="/prism/prism.js"></script>
     <script src="/indexScripts.js"></script>
-    </div>
+
 
 
   </body>
